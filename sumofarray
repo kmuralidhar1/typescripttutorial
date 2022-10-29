@@ -1,0 +1,9 @@
+var number = [3, 6, 8, 9, 8, 2, 4];
+var sum=0;
+for(var i=0; i<number.length; i++){
+    sum=sum+number[i];
+}
+
+console.log(sum);
+
+//output=40
