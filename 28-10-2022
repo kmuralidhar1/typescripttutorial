@@ -45,3 +45,28 @@ Tuple values are individually called items. Tuples are index based.
 Differnece b/w let,var and const..?? 
 These are the keywords to declare variables.
 sample Code:-
+var ticket=new booktickets("jinna","AMB")
+tickets.file_name="tenent";
+console.log(ticket.file_name)
+
+constant ticket_price:number=500;
+class booktickets
+{
+public film_name:string
+theater_name:string;
+constructor(b:string, c:string)
+{
+this.film_name=b;
+this.theater_name=c;
+}
+book tickets()
+{
+return "film name: "+ this.film_name+"in"+this.theater_name+"and ticket price is :::"+ticket_price+"INR
+}
+cancelticket(){
+return"cancelling tickets!";
+}
+private holdticket(){
+return"Hold Ticket";
+}
+}
