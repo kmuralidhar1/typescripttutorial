@@ -1,0 +1,11 @@
+var number = [3, 6, 8, 9, 8, 2, 4];
+number.sort();
+var unique=[];
+var len=number.length;
+for(var i=0; i<len; i++){
+    if(unique.indexOf(number[i])===-1){
+        unique.push(number[i]);
+    }
+}
+var thirdlargest=unique[unique.length-3]
+console.log(thirdlargest);
