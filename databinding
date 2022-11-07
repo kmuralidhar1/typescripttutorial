@@ -1,0 +1,34 @@
+Data Binding Defination:- Binding the data from the component to template or template to component.
+--Interacting with data.
+their are two types of data binding:
+1) One way data binding is that
+Data can be only tranferred from component to view t0 be html to be template.
+2) Two way data binding is that
+Component to HTML 
+HTML to component
+---one way data binding--: 
+There four types:
+-->.interpolation or String interpolation:--
+-->{{property_name}}
+-->Property binding:-
+The data will be transferred from component to view .
+command:-[ng style] = "property_name"
+<div><img [src]="image"></div>
+--> Style/attribute binding:---
+command:-[href]="propert-name",[img],[src]
+-->custom attribute binding:
+[],{{}} used the for concerened property to bind the data from c--> view
+it extends the properties,built in properties.
+syntax:-[attr.<attribute_name>]="property-name"
+declaring some variable/property in .ts file and not using in .html..
+Filmlink is not a attribute but we have created custom attribute..
+-->Event binding:
+Allows to  bind events of elements from view to component.
+Data flow is one way ie.,From view to component
+==>2 way data binding:
+The data flow is in both waysie., from component to view and view to component. 
+It is combination of property binding and event binding. 
+Binding is done using ngModel.
+commanad:-
+div,p,a etc., all the html templates we can add to this data binding
+[(ngmodel)]
